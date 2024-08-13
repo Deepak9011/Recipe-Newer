@@ -1,0 +1,13 @@
+.recipe-cards-container {
+  padding-bottom: 50px;
+}
+
+.recipe-cards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  list-style: none;
+  place-items: center;
+  padding: 0;
+}

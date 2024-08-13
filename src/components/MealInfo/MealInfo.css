@@ -1,0 +1,70 @@
+.meal-info-component {
+  display: flex;
+}
+
+.meal-img-container img {
+  border: 2px solid black;
+  width: 25vw;
+}
+
+.meal-info-container h1 {
+  margin: 0 0 5px 10px;
+  color: black;
+}
+
+.meal-info-container h2 {
+  margin: 0 10px 10px 10px;
+  font-size: 1.2em;
+  display: inline;
+}
+
+.meal-country-container, .meal-country-container h2 {
+  display: inline;
+}
+
+.meal-country-container img {
+  vertical-align: bottom;
+}
+
+span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.meal-info-container h3 {
+  margin: 10px 0 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ingredients-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.ingredient-item {
+  flex: 1 0 50.0%;
+}
+
+.fav-btn {
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  margin-left: auto;
+}
+
+.fav-btn svg {
+  width: 40px;
+  height: inherit;
+}
+
+.meal-info-link {
+  color: #4f4f4f;
+  text-decoration: underline;
+}
+
+.meal-info-link:hover {
+  color: #3b71ca;
+  text-decoration: underline;
+}

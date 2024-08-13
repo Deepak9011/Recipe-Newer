@@ -1,0 +1,49 @@
+footer {
+  background-color: white;
+}
+
+.footer-divider {
+  background-image: linear-gradient(90deg, #ed6ea0 0, #ec8c69);
+  overflow: hidden;
+}
+
+.footer-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#footer-info {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+#icons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.icon-link,
+.icon-link:link,
+.icon-link:visited {
+  color: black;
+  text-decoration-line: none;
+  margin: 0 7px;
+}
+
+.alphabet {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.alphabet li {
+  margin-right: 5px
+}
+
+.alphabet a {
+  color: #4f4f4f;
+}
