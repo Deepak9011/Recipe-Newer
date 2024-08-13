@@ -4,7 +4,7 @@
 
 Embark on a culinary journey with Recipe Radar, your ultimate companion for exploring a world of flavors. Discover delightful dishes from around the globe with just a search. From savory classics to sweet sensations, Recipe Radar guides you through a treasure trove of recipes, helping you create masterpieces in your kitchen.
 
-[Click here to visit the website!](https://bryandevelops-recipe-radar.netlify.app/)
+[Click here to visit the website!](https://deepak-recipe-newer.netlify.app/)
 
 ## Technologies
 
