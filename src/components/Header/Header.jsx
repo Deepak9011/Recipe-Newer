@@ -25,7 +25,7 @@ export default function Header (props) {
             <img className='svg logo-svg' src="/category.svg" />
           </Link>
           <Link to='/area'>
-            <img className='svg logo-svg' src="/area.svg" />
+            <img className='svg logo-svg' src="/location.png" />
           </Link>
           <Link to='/random' state={{...random}} onClick={handleClick}>
             <img className='svg logo-svg' src="/random.svg" />

@@ -13,7 +13,7 @@ export default function Areas (props) {
   function areasLoaded() {
     return (
       <>
-        <h1 className='label'>countries</h1>
+        <h1 className='label'>Countries</h1>
         <ul className='area-cards-list'>
           {areas.map((area, i) => {
             return <AreaCard key={i} {...area} />

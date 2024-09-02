@@ -1,6 +1,6 @@
-# Recipe Radar 
+# Recipe Newer 
 
-<img src="public/recipe-radar-icon.svg" width="250">
+<img src="public/recipe-newer-icon.svg" width="250">
 
 Embark on a culinary journey with Recipe Radar, your ultimate companion for exploring a world of flavors. Discover delightful dishes from around the globe with just a search. From savory classics to sweet sensations, Recipe Radar guides you through a treasure trove of recipes, helping you create masterpieces in your kitchen.
 

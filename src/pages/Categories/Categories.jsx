@@ -13,7 +13,7 @@ export default function Categories (props) {
   function categoriesLoaded() {
     return (
       <>
-        <h1 className='label'>categories</h1>
+        <h1 className='label'>Categories</h1>
         <ul className='category-cards-list'>
           {categories.map((cat, i) => {
             return <CategoryCard key={i} {...cat} />
