@@ -2,25 +2,25 @@
 
 <img src="public/recipe-newer-icon.svg" width="250">
 
-Embark on a culinary journey with Recipe Radar, your ultimate companion for exploring a world of flavors. Discover delightful dishes from around the globe with just a search. From savory classics to sweet sensations, Recipe Radar guides you through a treasure trove of recipes, helping you create masterpieces in your kitchen.
+Embark on a culinary journey with Recipe Newer, your ultimate companion for exploring a world of flavors. Discover delightful dishes from around the globe with just a search. From savory classics to sweet sensations, Recipe Newer guides you through a treasure trove of recipes, helping you create masterpieces in your kitchen.
 
 [Click here to visit the website!](https://deepak-recipe-newer.netlify.app/)
 
 ## Technologies
 
-Recipe Radar is crafted using modern web technologies to ensure a smooth, engaging, and efficient single-page user experience. Here's a glimpse into the technologies that power the app:
+Recipe Newer is crafted using modern web technologies to ensure a smooth, engaging, and efficient single-page user experience. Here's a glimpse into the technologies that power the app:
 
 ### React
 
-The frontend of Recipe Radar is built with React, a powerful JavaScript library for building user interfaces. React's component-based architecture enhances code reusability and helps manage the app's complex UI components.
+The frontend of Recipe Newer is built with React, a powerful JavaScript library for building user interfaces. React's component-based architecture enhances code reusability and helps manage the app's complex UI components.
 
 ### Vite
 
-Vite is the build tool of choice for Recipe Radar. Its rapid build speed and modern development server create a lightning-fast development environment, contributing to a more efficient development process.
+Vite is the build tool of choice for Recipe Newer. Its rapid build speed and modern development server create a lightning-fast development environment, contributing to a more efficient development process.
 
 ### TheMealDB API
 
-Recipe Radar integrates seamlessly with TheMealDB API to fetch an extensive variety of recipes. As a publicly accessible API, it provides a wealth of culinary information, allowing users to discover and explore diverse dishes effortlessly.
+Recipe Newer integrates seamlessly with TheMealDB API to fetch an extensive variety of recipes. As a publicly accessible API, it provides a wealth of culinary information, allowing users to discover and explore diverse dishes effortlessly.
 
 ### HTML5 & CSS3
 
@@ -36,11 +36,11 @@ Version control is managed using Git, allowing for efficient code management. Gi
 
 ### Deployment on Netlify
 
-Recipe Radar is optimized for deployment on Netlify, a powerful platform for hosting static websites and web applications. Netlify's seamless integration with GitHub streamlines the deployment process, ensuring that the app is easily accessible to users online.
+Recipe Newer is optimized for deployment on Netlify, a powerful platform for hosting static websites and web applications. Netlify's seamless integration with GitHub streamlines the deployment process, ensuring that the app is easily accessible to users online.
 
 ## Features
 
-Recipe Radar is a web application designed to make your culinary journey enjoyable and effortless. With a focus on simplicity and discovery, Recipe Radar empowers users to explore a diverse range of recipes and unleash their inner chef. Here are some of the key features:
+Recipe Newer is a web application designed to make your culinary journey enjoyable and effortless. With a focus on simplicity and discovery, Recipe Newer empowers users to explore a diverse range of recipes and unleash their inner chef. Here are some of the key features:
 
 ### Search recipes by name
 
@@ -109,7 +109,7 @@ Recipe Radar is a web application designed to make your culinary journey enjoyab
 
 ## Challenge
 
-During the development of Recipe Radar, one notable challenge I encountered revolved around making an API call for each element in an array. This challenge emerged when I wanted users to be directed to the Recipe Detail View by clicking on a Recipe Card component whose data was being displayed by JSON that was fetched from a Filter by Category API request. The problem was that the data returned by the endpoint I was using didn't display all of the recipe information, only the ID and a few other pieces of data. In order to pass down the relevant information to the Recipe Detail View component, I had to iterate over each element of the fetched JSON data and initiate a second API call for each element that would allow me to look up all of the recipe information for each ID.
+During the development of Recipe Newer, one notable challenge I encountered revolved around making an API call for each element in an array. This challenge emerged when I wanted users to be directed to the Recipe Detail View by clicking on a Recipe Card component whose data was being displayed by JSON that was fetched from a Filter by Category API request. The problem was that the data returned by the endpoint I was using didn't display all of the recipe information, only the ID and a few other pieces of data. In order to pass down the relevant information to the Recipe Detail View component, I had to iterate over each element of the fetched JSON data and initiate a second API call for each element that would allow me to look up all of the recipe information for each ID.
 
 To overcome this challenge, I had to utilize the `Promise.all()` method from the Promise object, which I had never used before. This method proved to be a powerful solution for handling multiple asynchronous operations simultaneously. By wrapping each API call inside a Promise and then using `Promise.all()`, I was able to execute all the API calls concurrently and efficiently collect the required data.
 
