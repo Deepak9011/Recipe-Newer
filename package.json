@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Deepak9011.github.io/Recipe-Newer",
+  "homepage": "https://Deepak9011.github.io/Recipe-Newer/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
