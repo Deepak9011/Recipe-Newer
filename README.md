@@ -198,3 +198,15 @@ This challenge not only expanded my knowledge of asynchronous operations but als
 * [Pass Props Through React Router's Link Component](https://ui.dev/react-router-pass-props-to-link)
 * [Scroll To Top on Page Transition](https://stackoverflow.com/questions/36904185/react-router-scroll-to-top-on-every-transition)
 * [Make API Calls For Each Element In An Array](https://stackoverflow.com/questions/66505445/how-to-make-api-calls-for-each-element-in-array)
+
+
+<!-- Interview at Zuddl Asked about Sckema
+
+ create table Recipe(recipe_id primary key int, recipe_name varchar(20), title varchar(100), description varchar(500), url varchar(20), countries varchar(20), categories varchar(20))
+create table User(user_id, user_name, password)
+favourite(user_id foreign Key refrences User(user_id), recipe_id foreign key refrences Recipe(recipe_id))
+
+select Recipe.recipe_id, Recipe.recipe_name from favourite inner join Recipe where Recipe.recipe_id == favourite.recipe_id group by recipe_id desc COUNT(user_id) Limit 5;
+
+select * from Recipe where recipe_name Like "%Butter Masala%"; -->
+
