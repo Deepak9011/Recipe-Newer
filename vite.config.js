@@ -8,5 +8,4 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Recipe-Newer', // This should match your repo name
 });
