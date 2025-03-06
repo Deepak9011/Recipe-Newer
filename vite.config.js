@@ -6,6 +6,10 @@ import { defineConfig } from 'vite';
 //   plugins: [react()],
 // })
 
+const base = process.env.NODE_ENV === "production" ? "/" : "/";
+
+
 export default defineConfig({
   plugins: [react()],
+  base,
 });
